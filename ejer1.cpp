@@ -39,6 +39,7 @@ void agregarTarea(struct Nodo **lista, struct Tarea tarea);
 void moverTarea(struct Nodo **listaOrigen, struct Nodo **listaDestino, int tareaID);
 void elegirTareas(struct Nodo **pendientes, struct Nodo **realizadas);
 void listarTareas(struct Nodo *lista, const char *nombre);
+void cargarTareas(struct Nodo **lista);
 void consultarTareas(struct Nodo *pendientes, struct Nodo *realizadas, int id);
 
 int tareaID = 1000;
